@@ -16,5 +16,5 @@ steps:
   # Deploy container image to Cloud Run
   - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
     entrypoint: gcloud
-    args: ['run', 'deploy', 'website', '--image', 'asia-south1-docker.pkg.dev/$PROJECT_ID/docker-images/website', '--region', 'us-central1','--project','fpa-dev-1']
+    args: ['run', 'deploy', 'website', '--image', 'asia-south1-docker.pkg.dev/$PROJECT_ID/docker-images/website', '--region', 'us-central1','--project','606010765839']
 images: ["asia-south1-docker.pkg.dev/$PROJECT_ID/docker-images/website"]
